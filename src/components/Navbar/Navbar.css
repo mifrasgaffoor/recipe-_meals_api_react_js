@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(6, 6, 59);
+}
+.container .logo > h1 {
+  color: white;
+}
+.nav {
+  color: white;
+}
+
+@media screen and (max-width: 560px) {
+  .container .logo > h1 {
+    font-size: 20px;
+  }
+}
